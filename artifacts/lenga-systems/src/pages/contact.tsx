@@ -178,10 +178,10 @@ export default function Contact() {
                         Phone
                       </p>
                       <a
-                        href="tel:+442000000000"
+                        href="tel:+12010000000"
                         className="text-foreground hover:text-primary transition-colors text-sm"
                       >
-                        +44 20 0000 0000
+                        +1 (201) 000-0000
                       </a>
                     </div>
                   </motion.div>
@@ -198,8 +198,8 @@ export default function Contact() {
                       <p className="text-xs text-muted-foreground mb-1 uppercase tracking-wide font-medium">
                         Location
                       </p>
-                      <p className="text-foreground text-sm">London, United Kingdom</p>
-                      <p className="text-muted-foreground text-xs mt-1">Working with clients across the UK and internationally</p>
+                      <p className="text-foreground text-sm">New Jersey, United States</p>
+                      <p className="text-muted-foreground text-xs mt-1">Working with clients across the U.S. and internationally</p>
                     </div>
                   </motion.div>
                 </div>

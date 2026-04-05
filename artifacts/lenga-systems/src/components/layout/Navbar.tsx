@@ -2,6 +2,7 @@ import { Link, useLocation } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { useState, useEffect } from "react";
+import { Logo } from "@/components/layout/Logo";
 
 export function Navbar() {
   const [location] = useLocation();
@@ -29,13 +30,11 @@ export function Navbar() {
       }`}
     >
       <div className="container mx-auto px-4 md:px-8 max-w-7xl flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-2 group">
-          <div className="w-8 h-8 rounded-md bg-primary flex items-center justify-center text-white font-display font-bold text-xl transition-transform group-hover:scale-105">
-            L
-          </div>
-          <span className="font-display font-bold text-xl tracking-tight text-foreground">
-            Lenga <span className="text-primary">Systems</span>
-          </span>
+        <Link href="/" className="flex items-center group">
+          <Logo
+            variant={isScrolled ? "dark" : "light"}
+            className="transition-opacity group-hover:opacity-80"
+          />
         </Link>
 
         {/* Desktop Nav */}
