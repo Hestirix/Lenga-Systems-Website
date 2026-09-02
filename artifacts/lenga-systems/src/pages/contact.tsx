@@ -56,11 +56,12 @@ const faqs = [
 const services = [
   "IT & Systems Consulting",
   "AI Consulting & Implementation",
-  "Web Development",
-  "Application Development",
-  "Process Automation",
   "Systems Integration",
-  "Digital Transformation",
+  "Cloud & Technology Infrastructure",
+  "Data & Business Intelligence",
+  "Process Automation",
+  "Custom Business Systems",
+  "Managed Technology Support",
   "Not sure yet",
 ];
 

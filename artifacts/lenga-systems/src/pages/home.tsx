@@ -5,15 +5,16 @@ import {
   CheckCircle,
   Monitor,
   Brain,
-  Globe,
-  Smartphone,
+  Cloud,
+  Database,
+  BarChart3,
   Zap,
   GitMerge,
   TrendingUp,
+  Settings,
   ChevronRight,
   Star,
   Users,
-  BarChart3,
   Layers,
   Shield,
   Clock,
@@ -43,16 +44,22 @@ const services = [
       "From readiness and opportunity assessment to practical adoption, integration, and responsible implementation, we help AI create useful business value.",
   },
   {
-    icon: Globe,
-    title: "Web Development",
+    icon: GitMerge,
+    title: "Systems Integration",
     description:
-      "Web experiences delivered when they are the right part of a wider technology or systems solution.",
+      "Connect the tools, platforms, and data sources your business relies on so information moves reliably between them.",
   },
   {
-    icon: Smartphone,
-    title: "Application Development",
+    icon: Cloud,
+    title: "Cloud & Technology Infrastructure",
     description:
-      "Custom applications that support a defined business need and fit the systems, workflows, and people around them.",
+      "Plan and improve the cloud, hosting, backup, recovery, and infrastructure foundations that support your operations.",
+  },
+  {
+    icon: BarChart3,
+    title: "Data & Business Intelligence",
+    description:
+      "Turn the data you already have into reporting, dashboards, and decision support that helps your team act with confidence.",
   },
   {
     icon: Zap,
@@ -61,16 +68,16 @@ const services = [
       "Identify repetitive manual tasks and replace them with reliable automated workflows that save time and reduce errors.",
   },
   {
-    icon: GitMerge,
-    title: "Systems Integration",
+    icon: Settings,
+    title: "Custom Business Systems",
     description:
-      "Connect your existing tools, platforms, and data sources so your business operates as a single, coherent system.",
+      "Build internal systems, portals, applications, and digital business platforms when off-the-shelf tools are not enough.",
   },
   {
     icon: TrendingUp,
     title: "Digital Transformation",
     description:
-      "A structured approach to modernizing your operations — from strategy through implementation.",
+      "Modernise the way your business operates with a practical roadmap from strategy through implementation.",
   },
 ];
 
@@ -117,7 +124,7 @@ const solutions = [
   { label: "Workflow Automation", desc: "Less manual work and fewer errors" },
   { label: "Data & BI Reporting", desc: "Useful insight from the data you already have" },
   { label: "Cloud & Infrastructure", desc: "Reliable foundations for modern operations" },
-  { label: "Websites & Applications", desc: "Digital products built around a real need" },
+   { label: "Digital Business Platforms", desc: "Web systems, portals, and platforms built around a real need" },
   { label: "Process Improvement", desc: "A clearer, more effective way of working" },
 ];
 
@@ -282,9 +289,10 @@ export default function Home() {
               variants={fadeUp}
               className="text-muted-foreground text-lg max-w-2xl mx-auto"
             >
-              We bring together technology strategy, systems improvement, AI
-              implementation, and the delivery capabilities needed to solve the
-              right business problem.
+              We advise, design, implement, and support — bringing together
+              technology strategy, systems improvement, AI implementation, and
+              the delivery capabilities needed to solve the right business
+              problem.
             </motion.p>
           </motion.div>
 

@@ -1,0 +1,337 @@
+# Replit Prompt — Refine Lenga Systems positioning, services, and team
+
+Update the existing Lenga Systems website so the content accurately reflects the company we are building.
+
+## Core company positioning
+
+Lenga Systems is an **IT & AI Consultancy**.
+
+It is not primarily a web-development or app-development company.
+
+The company should be positioned as a technology and systems partner that helps businesses understand, design, implement, integrate, modernize, and manage the systems and technology they depend on.
+
+AI consultancy and implementation must remain highly visible and should be treated as one of Lenga Systems' defining capabilities, not buried among many unrelated services.
+
+The core idea is:
+
+**We advise. We design. We implement. We support.**
+
+Lenga should feel like a practical technology consultancy focused on delivery, not a creative agency or generic software-development shop.
+
+---
+
+# 1. Homepage
+
+Preserve the existing visual design and layout.
+
+Keep the existing hero direction around:
+
+**IT & AI consultancy for the systems your business relies on**
+
+Maintain the strong emphasis on:
+
+* IT & Systems Consulting
+* AI Consulting & Implementation
+* Systems Integration
+* Process Automation
+* Digital Transformation
+
+However, reduce the prominence of standalone **Website Development** and **Application Development** as primary company-defining services.
+
+Websites and applications remain capabilities Lenga can deliver when needed, but they are implementation tools rather than the company's identity.
+
+Where appropriate, reframe these services around business outcomes.
+
+For example:
+
+Instead of:
+**Website Development**
+
+Consider:
+**Digital Platforms & Business Web Systems**
+
+Instead of:
+**Application Development**
+
+Consider:
+**Custom Business Systems & Applications**
+
+Do not force these exact names if the existing layout works better with another professional wording, but preserve this strategic direction.
+
+---
+
+# 2. Services page
+
+Reorganize the service hierarchy around these major areas:
+
+## IT & Systems Consulting
+
+Include services such as:
+
+* technology strategy
+* systems analysis
+* technology assessments
+* solution planning
+* digital modernization
+* IT advisory
+
+## AI Consulting & Implementation
+
+This must remain highly visible.
+
+Include:
+
+* AI readiness assessments
+* identifying practical AI opportunities
+* AI workflow automation
+* internal AI assistants
+* knowledge-base and document assistants
+* AI integration with existing systems
+* adoption and implementation support
+* responsible AI guidance
+
+Avoid exaggerated AI claims.
+
+Lenga should be positioned as helping businesses use AI practically, not simply selling AI hype.
+
+## Systems Integration
+
+Include:
+
+* API integration
+* business system integration
+* connecting fragmented platforms
+* databases
+* cloud platforms
+* third-party software integration
+
+## Cloud & Technology Infrastructure
+
+Include:
+
+* cloud architecture
+* cloud deployment
+* hosting infrastructure
+* backup and recovery
+* system administration
+* infrastructure planning
+
+Do not imply that Lenga currently operates large data centres or enterprise infrastructure capabilities that it does not yet have.
+
+## Data & Business Intelligence
+
+Include:
+
+* business intelligence
+* reporting
+* dashboards
+* data integration
+* operational analytics
+* decision-support systems
+
+## Process Automation
+
+Include:
+
+* workflow automation
+* approvals
+* notifications
+* data movement
+* repetitive process reduction
+* operational efficiency
+
+## Custom Business Systems
+
+Include:
+
+* internal systems
+* workforce platforms
+* scheduling systems
+* portals
+* operational applications
+* custom software where off-the-shelf solutions are insufficient
+
+## Managed Technology Support
+
+Include:
+
+* hosting
+* maintenance
+* system support
+* monitoring
+* technical administration
+* ongoing improvement
+
+This is an emerging capability, so avoid language that implies Lenga already operates a massive managed-services organization.
+
+---
+
+# 3. Solutions page
+
+Keep the current concept:
+
+**Real solutions for real business problems**
+
+This page should remain oriented around business outcomes rather than technical capabilities.
+
+Keep or refine solution categories such as:
+
+* Internal Business Systems
+* Workflow Automation
+* AI Chatbots & Assistants
+* Booking & Scheduling Platforms
+* Reporting Dashboards
+* Customer Engagement Tools
+* Process Optimisation
+* Digital Transformation Strategy
+
+Replace **Business Websites** with something broader and more aligned with Lenga's positioning, such as:
+
+**Digital Business Platforms**
+
+or
+
+**Business Web Platforms**
+
+This can include professional websites, client portals, service platforms, and web-based business systems.
+
+The outcome language should always focus on what the business gains rather than what technology is used.
+
+---
+
+# 4. About page
+
+Preserve the existing philosophy around:
+
+**A consultancy built on delivery, not promises**
+
+Keep the tone that Lenga is not trying to imitate a giant consulting firm.
+
+Emphasize that clients work directly with people involved in understanding, designing, and delivering the solution.
+
+Keep ideas such as:
+
+* practical implementation
+* honest recommendations
+* clear proposals
+* long-term partnership
+* solutions appropriate to the client's real capabilities
+* delivery rather than endless strategy documents
+
+Do not invent company history, statistics, client counts, years of company operation, partnerships, certifications, or awards.
+
+---
+
+# 5. Replace placeholder team information
+
+Remove all fictional placeholder team members and biographies.
+
+Use the real founding team below.
+
+## Dennis Mhango
+
+**Managing Principal, IT & AI**
+
+Focus:
+
+* IT consulting
+* AI consulting and implementation
+* technology strategy
+* systems transformation
+* solution planning
+* client engagements
+
+Bio direction:
+Dennis has experience across technology consulting, software development, data, ICT, and other technology roles across multiple organizations. He holds postgraduate qualifications in Computer Science and Information Systems and leads Lenga's consulting, technology strategy, and AI engagements.
+
+Do not exaggerate years of experience or invent employers beyond information already present in the existing project.
+
+## Paul Muleme
+
+**Engineering & Solutions Architecture Lead**
+
+Focus:
+
+* systems architecture
+* engineering
+* infrastructure
+* solution design
+* technical implementation
+* integration architecture
+
+Bio direction:
+Paul has professional experience as a technology engineer in the telecommunications sector and holds a Master's degree in Computer Science. He leads technical architecture, engineering decisions, and implementation planning for Lenga solutions.
+
+## Moses Ndovie
+
+**Business Strategy & Analytics Lead**
+
+Focus:
+
+* business analysis
+* business analytics
+* process analysis
+* reporting
+* performance measurement
+* commercial and operational analysis
+
+Bio direction:
+Moses holds a Master's degree in Business Analytics and brings professional experience from the real-estate sector. He focuses on translating business requirements into measurable outcomes, analytics, and operational improvement.
+
+Keep the biographies concise and professional.
+
+Do not invent job history, companies, certifications, or experience that has not been provided.
+
+---
+
+# 6. Company language
+
+Across the website, favor wording such as:
+
+* technology partner
+* business systems
+* practical implementation
+* technology strategy
+* operational improvement
+* systems integration
+* AI adoption
+* AI implementation
+* digital modernization
+* measurable outcomes
+* long-term support
+
+Avoid overusing language such as:
+
+* cutting-edge
+* revolutionary
+* game-changing
+* world-class
+* industry-leading
+
+The brand should sound confident and technically competent without sounding exaggerated.
+
+---
+
+# 7. Preserve the design
+
+Important:
+
+Do NOT redesign the site.
+
+Preserve:
+
+* typography
+* color palette
+* existing sections
+* animations
+* spacing
+* cards
+* buttons
+* page structure
+* responsive behavior
+
+Only make structural changes when necessary to improve the service hierarchy or replace outdated information.
+
+Do not change the logo during this task.
+
+When complete, summarize exactly which pages and sections were changed.
