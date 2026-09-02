@@ -1,0 +1,23 @@
+Update the existing Lenga Systems website copy to better reflect the company’s actual positioning.
+
+Lenga Systems is an IT & AI Consultancy, not primarily a website or app development company. The company should be positioned as a technology and systems partner that helps businesses design, implement, integrate, modernize, and improve the technology systems they rely on.
+
+AI consultancy and implementation must be a clearly visible part of the company identity and should not be buried among many other services. Lenga should be presented as a company businesses can approach for both traditional IT/systems requirements and practical AI adoption and implementation.
+
+Preserve the existing visual design, layout, typography, colors, spacing, animations, navigation structure, and overall appearance. Do not redesign the site. This task is primarily a content and positioning update.
+
+Update the website so the main positioning reflects: “Lenga Systems | IT & AI Consultancy.”
+
+Emphasize two major areas:
+
+IT & Systems Consulting — technology strategy, systems analysis, systems integration, cloud solutions, business systems, data and business intelligence, process improvement, infrastructure, and managed technology support.
+
+AI Consulting & Implementation — AI readiness and opportunity assessment, practical AI adoption, AI workflow automation, internal AI assistants, AI integration with existing systems, implementation, adoption support, and responsible AI guidance.
+
+Custom software, web development, and application development may remain capabilities where needed to solve a client problem, but they should no longer appear to define Lenga Systems or dominate the company’s positioning. Lenga is a technology and systems consultancy first.
+
+Preserve strong existing language such as the focus on delivery rather than promises, practical implementation, honest recommendations, and becoming a long-term technology partner.
+
+Do not invent client names, employee biographies, statistics, certifications, partnerships, years of experience, case studies, or achievements. Do not change the current team section yet because real team information will be supplied separately.
+
+Before making major structural changes, work within the existing sections and visual architecture wherever possible.

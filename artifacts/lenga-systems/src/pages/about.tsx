@@ -1,5 +1,5 @@
 import { Link } from "wouter";
-import { motion } from "framer-motion";
+import { motion, type Variants } from "framer-motion";
 import {
   ArrowRight,
   CheckCircle,
@@ -13,7 +13,7 @@ import {
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-const fadeUp = {
+const fadeUp: Variants = {
   hidden: { opacity: 0, y: 30 },
   visible: (i = 0) => ({
     opacity: 1,
@@ -150,10 +150,11 @@ export default function About() {
                 className="space-y-5 text-muted-foreground leading-relaxed"
               >
                 <p>
-                  Lenga Systems is an IT and AI consultancy helping small,
-                  medium, and growing businesses improve their operations,
-                  modernise their technology, and implement practical digital
-                  solutions that create measurable value.
+                   Lenga Systems is an IT and AI consultancy helping businesses
+                   understand, improve, and implement the technology systems
+                   they rely on. We work across IT and systems consulting,
+                   practical AI adoption, integration, automation, and
+                   technology-enabled process improvement.
                 </p>
                 <p>
                   We are not a large firm. We don't have 200 consultants, and
@@ -162,10 +163,10 @@ export default function About() {
                   direct approach to getting things done.
                 </p>
                 <p>
-                  Our clients are businesses that want to work with
-                  technologists who understand their context, communicate
-                  clearly, and can move from strategy to working software
-                  without losing something in translation.
+                   Our clients are businesses that want a technology partner
+                   who understands their context, communicates clearly, and can
+                   move from strategy to practical implementation without losing
+                   something in translation.
                 </p>
               </motion.div>
             </motion.div>
@@ -235,7 +236,7 @@ export default function About() {
                 variants={fadeUp}
                 className="text-3xl md:text-4xl font-display font-bold text-foreground mb-6"
               >
-                Why clients choose Lenga Systems over larger firms
+                 Why businesses choose Lenga Systems over larger firms
               </motion.h2>
               <motion.p
                 custom={2}
@@ -243,9 +244,9 @@ export default function About() {
                 className="text-muted-foreground leading-relaxed mb-8"
               >
                 Large consultancies are structured to sell large engagements.
-                We're structured to solve your actual problem — with the right
-                level of resource, at the right pace, with people who stay
-                involved from start to finish.
+                 We're structured to solve your actual problem — with the right
+                 level of support, at the right pace, and with people who stay
+                 involved from assessment through adoption.
               </motion.p>
             </motion.div>
 

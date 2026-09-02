@@ -1,5 +1,5 @@
 import { Link } from "wouter";
-import { motion } from "framer-motion";
+import { motion, type Variants } from "framer-motion";
 import {
   ArrowRight,
   Monitor,
@@ -14,7 +14,7 @@ import {
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-const fadeUp = {
+const fadeUp: Variants = {
   hidden: { opacity: 0, y: 30 },
   visible: (i = 0) => ({
     opacity: 1,
@@ -27,16 +27,16 @@ const services = [
   {
     id: "it",
     icon: Monitor,
-    title: "IT Consulting",
+    title: "IT & Systems Consulting",
     tagline: "Technology decisions you can trust",
     overview:
-      "We help businesses assess their current technology landscape, identify gaps and inefficiencies, and make informed decisions about systems, infrastructure, and tooling — without the complexity and cost of a large consulting firm.",
+      "We help businesses understand the technology landscape they depend on, identify gaps and inefficiencies, and make informed decisions across strategy, infrastructure, cloud, business systems, data, and managed technology support.",
     benefits: [
-      "Objective assessment of your current IT environment",
-      "Clear technology roadmap aligned to business goals",
-      "Vendor selection and procurement support",
-      "Risk identification and mitigation planning",
-      "Cost optimisation through better tooling decisions",
+      "Objective assessment of your current IT and systems environment",
+      "Technology roadmap aligned to business goals and priorities",
+      "Systems, infrastructure, cloud, and tooling guidance",
+      "Data, reporting, and business intelligence direction",
+      "Vendor, risk, cost, and ongoing support considerations",
     ],
     useCases: [
       "A professional services firm needing to understand which systems to consolidate before a growth phase",
@@ -47,16 +47,16 @@ const services = [
   {
     id: "ai",
     icon: Brain,
-    title: "AI Consulting",
+    title: "AI Consulting & Implementation",
     tagline: "Practical AI, not AI theatre",
     overview:
-      "We help businesses understand where AI can create genuine value in their operations — and then help them implement it. From identifying the right use cases to deploying production-ready solutions, we make AI accessible and actionable.",
+      "We help businesses assess their readiness for AI, identify worthwhile opportunities, and move from exploration to responsible implementation. That can include workflow automation, internal assistants, AI integrated with existing systems, and support for adoption.",
     benefits: [
-      "Clear identification of where AI creates real ROI in your business",
-      "Structured pilots that prove value before full investment",
-      "Integration of AI into existing tools and workflows",
-      "Staff training and change management support",
-      "Honest assessment of what AI can and cannot do for you",
+      "AI readiness and opportunity assessment",
+      "Practical adoption plan based on your business context",
+      "Focused pilots and implementation support",
+      "AI assistants, workflow automation, and system integration",
+      "Responsible AI guidance, training, and adoption support",
     ],
     useCases: [
       "A financial services firm wanting to automate document review and data extraction",
@@ -67,10 +67,10 @@ const services = [
   {
     id: "web",
     icon: Globe,
-    title: "Website Development",
-    tagline: "A website that represents your business properly",
+    title: "Web Development",
+    tagline: "Digital delivery when it solves the right problem",
     overview:
-      "We build professional, high-performance websites for businesses that need more than a template. Every site we build is designed to reflect your brand, communicate clearly with your audience, and perform reliably in production.",
+      "When a website is the right part of a wider technology requirement, we deliver a professional, high-performance digital experience that reflects your business, communicates clearly, and performs reliably.",
     benefits: [
       "Custom design tailored to your brand and audience",
       "Fast-loading, SEO-optimised structure",
@@ -87,10 +87,10 @@ const services = [
   {
     id: "app",
     icon: Smartphone,
-    title: "App Development",
-    tagline: "Custom software for the way your business actually works",
+    title: "Application Development",
+    tagline: "Custom software for a defined business need",
     overview:
-      "Off-the-shelf software rarely fits exactly. We build custom web and mobile applications that are built around your processes, your workflows, and the way your team actually operates.",
+      "When existing tools cannot meet an important requirement, we build custom web and mobile applications around your processes, workflows, systems, and the people who use them.",
     benefits: [
       "Software designed around your exact operational requirements",
       "Clean, maintainable codebase you own and can build on",
@@ -191,16 +191,16 @@ export default function Services() {
               variants={fadeUp}
               className="text-4xl md:text-6xl font-display font-bold text-white mb-6 leading-tight"
             >
-              Everything your business needs to modernise and grow
+              IT and AI consultancy for practical business improvement
             </motion.h1>
             <motion.p
               custom={2}
               variants={fadeUp}
               className="text-slate-300 text-lg leading-relaxed"
             >
-              Seven core service areas, each delivering clear business value. We
-              work across strategy, design, development, and operations — so you
-              don't need a different partner for every phase.
+              Lenga Systems brings together IT and systems consulting, AI
+              consulting and implementation, and the delivery capabilities
+              needed to improve how your business operates.
             </motion.p>
           </motion.div>
         </div>
