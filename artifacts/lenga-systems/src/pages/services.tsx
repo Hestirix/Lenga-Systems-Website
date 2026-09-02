@@ -4,11 +4,14 @@ import {
   ArrowRight,
   Monitor,
   Brain,
-  Globe,
-  Smartphone,
+  Cloud,
+  Database,
+  BarChart3,
   Zap,
   GitMerge,
-  TrendingUp,
+  Settings,
+  LifeBuoy,
+  Layers,
   CheckCircle,
   ChevronRight,
 } from "lucide-react";
@@ -30,13 +33,13 @@ const services = [
     title: "IT & Systems Consulting",
     tagline: "Technology decisions you can trust",
     overview:
-      "We help businesses understand the technology landscape they depend on, identify gaps and inefficiencies, and make informed decisions across strategy, infrastructure, cloud, business systems, data, and managed technology support.",
+      "We help businesses understand the technology landscape they depend on, identify gaps and inefficiencies, and make informed decisions across strategy, systems, infrastructure, cloud, data, and ongoing support.",
     benefits: [
       "Objective assessment of your current IT and systems environment",
       "Technology roadmap aligned to business goals and priorities",
+      "Technology assessments, solution planning, and IT advisory",
       "Systems, infrastructure, cloud, and tooling guidance",
-      "Data, reporting, and business intelligence direction",
-      "Vendor, risk, cost, and ongoing support considerations",
+      "Digital modernization and ongoing support considerations",
     ],
     useCases: [
       "A professional services firm needing to understand which systems to consolidate before a growth phase",
@@ -65,43 +68,63 @@ const services = [
     ],
   },
   {
-    id: "web",
-    icon: Globe,
-    title: "Web Development",
-    tagline: "Digital delivery when it solves the right problem",
+    id: "integration",
+    icon: GitMerge,
+    title: "Systems Integration",
+    tagline: "Make your tools work together",
     overview:
-      "When a website is the right part of a wider technology requirement, we deliver a professional, high-performance digital experience that reflects your business, communicates clearly, and performs reliably.",
+      "Most businesses run on multiple platforms that do not communicate with each other. We connect business systems, databases, cloud platforms, and third-party software so data flows correctly and teams do not have to re-enter information manually.",
     benefits: [
-      "Custom design tailored to your brand and audience",
-      "Fast-loading, SEO-optimised structure",
-      "Mobile-first, fully responsive layout",
-      "Integrated content management for your team to update",
-      "Ongoing technical support after launch",
+      "API and business system integration",
+      "Connecting fragmented platforms and data sources",
+      "Reliable data movement between connected systems",
+      "Reduced operational errors and duplicate entry",
+      "Integration architecture that can grow with your business",
     ],
     useCases: [
-      "A professional services firm whose current website doesn't reflect the quality of its work",
-      "A growing business that needs a scalable marketing platform",
-      "A company entering a new market that needs a credible digital presence",
+      "A business connecting its CRM, accounting software, and project management platform",
+      "An organisation integrating a new business system with existing databases",
+      "A team replacing manual data transfer between cloud and third-party platforms",
     ],
   },
   {
-    id: "app",
-    icon: Smartphone,
-    title: "Application Development",
-    tagline: "Custom software for a defined business need",
+    id: "infrastructure",
+    icon: Cloud,
+    title: "Cloud & Technology Infrastructure",
+    tagline: "Reliable foundations for modern operations",
     overview:
-      "When existing tools cannot meet an important requirement, we build custom web and mobile applications around your processes, workflows, systems, and the people who use them.",
+      "We help businesses plan and improve the cloud and infrastructure foundations behind their operations, with practical guidance across architecture, deployment, hosting, backup, recovery, and administration.",
     benefits: [
-      "Software designed around your exact operational requirements",
-      "Clean, maintainable codebase you own and can build on",
-      "Integrated with your existing tools and data sources",
-      "Built for your team's capability to manage and expand",
-      "Clear documentation and knowledge transfer included",
+      "Cloud architecture and deployment planning",
+      "Hosting and infrastructure improvement",
+      "Backup and recovery planning",
+      "System administration and infrastructure guidance",
+      "Practical recommendations proportionate to your current needs",
     ],
     useCases: [
-      "A logistics company needing a bespoke operations management portal",
-      "A healthcare provider building a patient-facing booking and communications platform",
-      "An agency wanting a branded client portal for project tracking and delivery",
+      "A growing business reviewing its hosting and deployment setup",
+      "A team formalising backup and recovery for critical systems",
+      "An organisation planning a phased move from on-premise infrastructure to cloud services",
+    ],
+  },
+  {
+    id: "data",
+    icon: BarChart3,
+    title: "Data & Business Intelligence",
+    tagline: "Useful insight from the data you already have",
+    overview:
+      "We help businesses bring together their operational data and turn it into reporting, dashboards, analytics, and decision-support systems that make important information easier to understand and act on.",
+    benefits: [
+      "Business intelligence and operational reporting",
+      "Data integration from multiple business systems",
+      "Dashboards designed around roles and decisions",
+      "Performance measurement and trend analysis",
+      "Clearer decision support for operational teams",
+    ],
+    useCases: [
+      "A leadership team needing a clearer view of operational performance",
+      "A business replacing delayed spreadsheet reports with connected dashboards",
+      "An organisation combining data from several systems for more useful analysis",
     ],
   },
   {
@@ -110,11 +133,11 @@ const services = [
     title: "Process Automation",
     tagline: "Less manual work, fewer errors, more capacity",
     overview:
-      "Manual processes that depend on people doing the same repetitive task reliably are a risk. We map your workflows, identify what can be automated, and implement reliable systems that handle the repetitive work so your team can focus on what requires human judgement.",
+      "Manual processes that depend on people doing the same repetitive task reliably are a risk. We map workflows, identify what can be automated, and implement reliable systems for approvals, notifications, data movement, and repetitive work.",
     benefits: [
       "Identification and prioritisation of automation opportunities",
+      "Workflow automation for approvals and notifications",
       "Reduction in manual errors and process inconsistency",
-      "Time savings across operational teams",
       "Integration with existing tools and data sources",
       "Monitoring and alerting to ensure automations run reliably",
     ],
@@ -125,43 +148,43 @@ const services = [
     ],
   },
   {
-    id: "integration",
-    icon: GitMerge,
-    title: "Systems Integration",
-    tagline: "Make your tools work together",
+    id: "custom-systems",
+    icon: Layers,
+    title: "Custom Business Systems",
+    tagline: "Technology shaped around the way you work",
     overview:
-      "Most businesses run on multiple platforms that don't communicate with each other. We connect your systems — CRM, ERP, finance tools, communication platforms, and custom applications — so data flows correctly and your team doesn't have to re-enter information manually.",
+      "When off-the-shelf tools are not enough, we design and build internal systems, workforce platforms, portals, operational applications, and digital business platforms around your processes and people.",
     benefits: [
-      "Single source of truth across your business systems",
-      "Elimination of manual data transfer and re-entry",
-      "Real-time synchronisation between connected platforms",
-      "Reduced operational errors from inconsistent data",
-      "Scalable integration architecture as your toolstack grows",
+      "Internal systems and workforce platforms",
+      "Scheduling systems, portals, and operational applications",
+      "Digital business platforms for customers and teams",
+      "Integration with existing tools and data",
+      "Clear documentation and knowledge transfer",
     ],
     useCases: [
-      "A business connecting its CRM, accounting software, and project management platform",
-      "An e-commerce operation syncing inventory, orders, and fulfilment across systems",
-      "An organisation integrating a new business system with legacy infrastructure",
+      "A business replacing fragile spreadsheets with an internal operational system",
+      "A team needing a portal that brings together customers, staff, and workflows",
+      "An organisation requiring custom software where existing tools cannot meet an important need",
     ],
   },
   {
-    id: "transformation",
-    icon: TrendingUp,
-    title: "Digital Transformation",
-    tagline: "Modernise the way your business operates",
+    id: "support",
+    icon: LifeBuoy,
+    title: "Managed Technology Support",
+    tagline: "Support that keeps improvements moving",
     overview:
-      "Digital transformation isn't a single project — it's a structured programme of change. We help businesses plan and execute their transformation in a phased, practical way that delivers measurable progress at each stage rather than a promise delivered years later.",
+      "We provide practical ongoing support for the technology we help plan and implement, including hosting, maintenance, monitoring, technical administration, and continuous improvement as your needs evolve.",
     benefits: [
-      "Clear transformation roadmap with realistic milestones",
-      "Change management support to bring your team along",
-      "Technology selection aligned to long-term business goals",
-      "Phased delivery that produces value throughout",
-      "Leadership coaching on technology-led decision making",
+      "Hosting, maintenance, and system support",
+      "Monitoring and technical administration",
+      "Ongoing improvement planning",
+      "Clear ownership and documentation",
+      "Support proportionate to your business and team",
     ],
     useCases: [
-      "A traditional business moving from paper and spreadsheet-based operations to digital systems",
-      "A growing company standardising and scaling its operations ahead of further growth",
-      "An established organisation modernising to compete with more digitally native competitors",
+      "A small team needing dependable support for its core business systems",
+      "A business wanting ongoing maintenance after a systems or automation project",
+      "An organisation that needs technical administration without building a large internal team",
     ],
   },
 ];
@@ -198,9 +221,10 @@ export default function Services() {
               variants={fadeUp}
               className="text-slate-300 text-lg leading-relaxed"
             >
-              Lenga Systems brings together IT and systems consulting, AI
-              consulting and implementation, and the delivery capabilities
-              needed to improve how your business operates.
+              We advise, design, implement, and support. Lenga Systems brings
+              together IT and systems consulting, AI consulting and
+              implementation, and the delivery capabilities needed to improve
+              how your business operates.
             </motion.p>
           </motion.div>
         </div>

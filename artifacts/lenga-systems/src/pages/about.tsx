@@ -70,21 +70,45 @@ const differentiators = [
   "We build for your current team's capabilities",
 ];
 
-const teamPlaceholders = [
+const team = [
   {
-    name: "Alex Lenga",
-    role: "Founder & Principal Consultant",
-    bio: "15 years working across technology strategy, software delivery, and digital transformation for organisations across financial services, professional services, and the public sector.",
+    name: "Dennis Mhango",
+    role: "Managing Principal, IT & AI",
+    focus: [
+      "IT consulting",
+      "AI consulting and implementation",
+      "Technology strategy",
+      "Systems transformation",
+      "Solution planning",
+      "Client engagements",
+    ],
+    bio: "Dennis has experience across technology consulting, software development, data, ICT, and other technology roles across multiple organizations. He holds postgraduate qualifications in Computer Science and Information Systems and leads Lenga's consulting, technology strategy, and AI engagements.",
   },
   {
-    name: "Senior Technology Lead",
-    role: "Engineering & Architecture",
-    bio: "Deep background in systems integration, cloud architecture, and custom software development. Focused on building things that are robust, scalable, and practical to maintain.",
+    name: "Paul Muleme",
+    role: "Engineering & Solutions Architecture Lead",
+    focus: [
+      "Systems architecture",
+      "Engineering",
+      "Infrastructure",
+      "Solution design",
+      "Technical implementation",
+      "Integration architecture",
+    ],
+    bio: "Paul has professional experience as a technology engineer in the telecommunications sector and holds a Master's degree in Computer Science. He leads technical architecture, engineering decisions, and implementation planning for Lenga solutions.",
   },
   {
-    name: "AI Practice Lead",
-    role: "AI Strategy & Implementation",
-    bio: "Specialist in practical AI adoption — from identifying the right use cases to deploying solutions in production environments where they create measurable value.",
+    name: "Moses Ndovie",
+    role: "Business Strategy & Analytics Lead",
+    focus: [
+      "Business analysis",
+      "Business analytics",
+      "Process analysis",
+      "Reporting",
+      "Performance measurement",
+      "Commercial and operational analysis",
+    ],
+    bio: "Moses holds a Master's degree in Business Analytics and brings professional experience from the real-estate sector. He focuses on translating business requirements into measurable outcomes, analytics, and operational improvement.",
   },
 ];
 
@@ -165,8 +189,10 @@ export default function About() {
                 <p>
                    Our clients are businesses that want a technology partner
                    who understands their context, communicates clearly, and can
-                   move from strategy to practical implementation without losing
-                   something in translation.
+                    move from strategy to practical implementation without losing
+                    something in translation. They work directly with the people
+                    involved in understanding, designing, and delivering the
+                    solution.
                 </p>
               </motion.div>
             </motion.div>
@@ -351,7 +377,7 @@ export default function About() {
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {teamPlaceholders.map((member, i) => (
+            {team.map((member, i) => (
               <motion.div
                 key={member.name}
                 initial="hidden"
@@ -366,6 +392,16 @@ export default function About() {
                 </div>
                 <h3 className="font-display font-semibold text-foreground mb-1">{member.name}</h3>
                 <p className="text-primary text-sm font-medium mb-4">{member.role}</p>
+                 <div className="flex flex-wrap gap-2 mb-5">
+                   {member.focus.map((item) => (
+                     <span
+                       key={item}
+                       className="rounded-full bg-primary/5 px-2.5 py-1 text-xs text-primary"
+                     >
+                       {item}
+                     </span>
+                   ))}
+                 </div>
                 <p className="text-muted-foreground text-sm leading-relaxed">{member.bio}</p>
               </motion.div>
             ))}

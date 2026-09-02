@@ -21,9 +21,9 @@ export function Footer() {
             <ul className="space-y-3 text-sm">
                <li><Link href="/services" className="hover:text-white transition-colors">IT & Systems Consulting</Link></li>
                <li><Link href="/services" className="hover:text-white transition-colors">AI Consulting & Implementation</Link></li>
-               <li><Link href="/services" className="hover:text-white transition-colors">Web & Application Development</Link></li>
+               <li><Link href="/services" className="hover:text-white transition-colors">Systems Integration</Link></li>
+               <li><Link href="/services" className="hover:text-white transition-colors">Cloud & Infrastructure</Link></li>
               <li><Link href="/services" className="hover:text-white transition-colors">Process Automation</Link></li>
-              <li><Link href="/services" className="hover:text-white transition-colors">Digital Transformation</Link></li>
             </ul>
           </div>
           

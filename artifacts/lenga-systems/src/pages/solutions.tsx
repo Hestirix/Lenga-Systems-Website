@@ -27,19 +27,19 @@ const fadeUp: Variants = {
 const solutions = [
   {
     icon: Globe,
-    title: "Business Websites",
-    category: "Web Presence",
+    title: "Digital Business Platforms",
+    category: "Digital Platforms",
     description:
-      "A professional website that accurately represents your business and drives the right enquiries. We build fast, SEO-optimised, mobile-first websites that convert visitors into leads.",
+      "Professional websites, client portals, service platforms, and web-based business systems shaped around how your business needs to communicate and operate.",
     features: [
-      "Custom design aligned to your brand",
+      "Web platforms aligned to your business goals",
       "Mobile-first, performance-optimised build",
-      "SEO-ready structure from day one",
-      "Content management integration",
+      "Client portals and service workflows",
+      "Content management and system integration",
       "Analytics and conversion tracking",
     ],
     outcome:
-      "A credible digital presence that works for your business around the clock.",
+      "A credible digital presence and practical web system that helps your business serve people more effectively.",
   },
   {
     icon: Database,
