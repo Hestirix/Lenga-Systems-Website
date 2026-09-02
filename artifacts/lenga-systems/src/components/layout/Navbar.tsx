@@ -33,7 +33,7 @@ export function Navbar() {
         <Link href="/" className="flex items-center group">
           <Logo
             variant="dark"
-            className="transition-opacity group-hover:opacity-80"
+            className="w-[130px] md:w-[160px] transition-opacity group-hover:opacity-80"
           />
         </Link>
 

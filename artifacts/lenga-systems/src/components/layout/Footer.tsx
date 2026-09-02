@@ -9,7 +9,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
           <div className="col-span-1 md:col-span-1">
             <Link href="/" className="inline-flex mb-6">
-              <Logo variant="light" />
+              <Logo variant="light" className="w-[120px] md:w-[140px]" />
             </Link>
             <p className="text-slate-400 mb-6 text-sm leading-relaxed">
               Lenga Systems is an IT and AI consultancy helping businesses improve operations, modernise systems, and adopt practical technology.
