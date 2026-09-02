@@ -12,16 +12,16 @@ export function Footer() {
               <Logo variant="light" />
             </Link>
             <p className="text-slate-400 mb-6 text-sm leading-relaxed">
-              A premium technology consultancy helping businesses improve operations, modernize systems, and implement practical solutions.
+              Lenga Systems is an IT and AI consultancy helping businesses improve operations, modernise systems, and adopt practical technology.
             </p>
           </div>
           
           <div>
             <h4 className="text-white font-medium mb-6 font-display">Services</h4>
             <ul className="space-y-3 text-sm">
-              <li><Link href="/services" className="hover:text-white transition-colors">IT Consulting</Link></li>
-              <li><Link href="/services" className="hover:text-white transition-colors">AI Consulting</Link></li>
-              <li><Link href="/services" className="hover:text-white transition-colors">Web & App Development</Link></li>
+               <li><Link href="/services" className="hover:text-white transition-colors">IT & Systems Consulting</Link></li>
+               <li><Link href="/services" className="hover:text-white transition-colors">AI Consulting & Implementation</Link></li>
+               <li><Link href="/services" className="hover:text-white transition-colors">Web & Application Development</Link></li>
               <li><Link href="/services" className="hover:text-white transition-colors">Process Automation</Link></li>
               <li><Link href="/services" className="hover:text-white transition-colors">Digital Transformation</Link></li>
             </ul>

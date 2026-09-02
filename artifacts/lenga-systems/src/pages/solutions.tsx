@@ -1,5 +1,5 @@
 import { Link } from "wouter";
-import { motion } from "framer-motion";
+import { motion, type Variants } from "framer-motion";
 import {
   ArrowRight,
   Globe,
@@ -15,7 +15,7 @@ import {
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-const fadeUp = {
+const fadeUp: Variants = {
   hidden: { opacity: 0, y: 30 },
   visible: (i = 0) => ({
     opacity: 1,
@@ -203,10 +203,10 @@ export default function Solutions() {
               variants={fadeUp}
               className="text-slate-300 text-lg leading-relaxed"
             >
-              Not capabilities or frameworks — concrete deliverables that
-              address the operational challenges businesses like yours actually
-              face. Every solution here has been built and deployed for real
-              clients.
+               Not abstract capabilities or frameworks — practical solution
+               patterns that address the operational challenges businesses like
+               yours face. Each can be shaped around your systems, people, and
+               priorities.
             </motion.p>
           </motion.div>
         </div>

@@ -1,5 +1,5 @@
 import { Link } from "wouter";
-import { motion } from "framer-motion";
+import { motion, type Variants } from "framer-motion";
 import {
   ArrowRight,
   CheckCircle,
@@ -20,7 +20,7 @@ import {
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-const fadeUp = {
+const fadeUp: Variants = {
   hidden: { opacity: 0, y: 30 },
   visible: (i = 0) => ({
     opacity: 1,
@@ -32,27 +32,27 @@ const fadeUp = {
 const services = [
   {
     icon: Monitor,
-    title: "IT Consulting",
+    title: "IT & Systems Consulting",
     description:
-      "We assess your current infrastructure and help you make technology decisions that support growth, reduce cost, and reduce risk.",
+      "We assess the systems your business relies on and help you make clear decisions across technology strategy, infrastructure, cloud, data, and ongoing support.",
   },
   {
     icon: Brain,
-    title: "AI Consulting",
+    title: "AI Consulting & Implementation",
     description:
-      "Practical AI strategy for your business — from identifying the right use cases to deploying solutions that actually work.",
+      "From readiness and opportunity assessment to practical adoption, integration, and responsible implementation, we help AI create useful business value.",
   },
   {
     icon: Globe,
-    title: "Website Development",
+    title: "Web Development",
     description:
-      "Professional websites that represent your brand, convert visitors, and are built to perform.",
+      "Web experiences delivered when they are the right part of a wider technology or systems solution.",
   },
   {
     icon: Smartphone,
-    title: "App Development",
+    title: "Application Development",
     description:
-      "Custom web and mobile applications tailored to your processes, your team, and your customers.",
+      "Custom applications that support a defined business need and fit the systems, workflows, and people around them.",
   },
   {
     icon: Zap,
@@ -85,7 +85,7 @@ const whyChoose = [
     icon: Layers,
     title: "End-to-end delivery",
     description:
-      "From strategy to deployment, we stay with you through the full lifecycle — not just the easy parts.",
+      "From assessment to implementation and adoption, we stay with you through the full lifecycle — not just the easy parts.",
   },
   {
     icon: BarChart3,
@@ -111,37 +111,34 @@ const aiUsesCases = [
 ];
 
 const solutions = [
-  { label: "Business Websites", desc: "Fast, professional, conversion-focused" },
-  { label: "Internal Systems", desc: "Custom tools for your team's daily operations" },
-  { label: "Workflow Automation", desc: "Eliminate manual processes at scale" },
-  { label: "AI Chatbots", desc: "Smart assistants for support or internal use" },
-  { label: "Booking Platforms", desc: "Self-serve scheduling for your customers" },
-  { label: "Reporting Dashboards", desc: "Real-time data in one place" },
-  { label: "Customer Engagement", desc: "Tools that keep clients coming back" },
-  { label: "Process Optimisation", desc: "Systematic improvement of how work gets done" },
+  { label: "Technology Roadmaps", desc: "Priorities aligned to business goals" },
+  { label: "Integrated Business Systems", desc: "Connected tools for dependable operations" },
+  { label: "AI Assistants & Knowledge Tools", desc: "Practical AI for teams and customers" },
+  { label: "Workflow Automation", desc: "Less manual work and fewer errors" },
+  { label: "Data & BI Reporting", desc: "Useful insight from the data you already have" },
+  { label: "Cloud & Infrastructure", desc: "Reliable foundations for modern operations" },
+  { label: "Websites & Applications", desc: "Digital products built around a real need" },
+  { label: "Process Improvement", desc: "A clearer, more effective way of working" },
 ];
 
 const testimonials = [
   {
     quote:
-      "Lenga Systems helped us go from a spreadsheet-based operation to a fully integrated digital workflow in eight weeks. The difference in efficiency has been remarkable.",
-    name: "Sarah Mitchell",
-    role: "Operations Director",
-    company: "Thornfield Group",
+      "Start with the business problem, understand the systems around it, and recommend only what will genuinely help.",
+    name: "Practical recommendations",
+    role: "A Lenga Systems principle",
   },
   {
     quote:
-      "We'd been putting off our website rebuild for two years. The team delivered something that genuinely represents our business — professional, fast, and exactly what we needed.",
-    name: "James Okafor",
-    role: "Managing Director",
-    company: "Crestline Advisory",
+      "Move from strategy to implementation with clear decisions, useful documentation, and a solution your team can adopt.",
+    name: "Implementation that sticks",
+    role: "A Lenga Systems principle",
   },
   {
     quote:
-      "The AI pilot they ran for us turned into our most valuable internal tool. Finally, a consultancy that actually delivers what they discuss in the initial meeting.",
-    name: "Priya Ramanathan",
-    role: "Head of Technology",
-    company: "Meridian Financial",
+      "Remain a technology partner as needs evolve — not just an adviser who leaves behind a report.",
+    name: "Long-term partnership",
+    role: "A Lenga Systems principle",
   },
 ];
 
@@ -175,7 +172,7 @@ export default function Home() {
               className="inline-flex items-center gap-2 bg-white/5 border border-white/10 rounded-full px-4 py-2 text-sm text-slate-300 mb-8"
             >
               <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
-              IT and AI Consultancy
+              Lenga Systems | IT & AI Consultancy
             </motion.div>
 
             <motion.h1
@@ -183,9 +180,7 @@ export default function Home() {
               variants={fadeUp}
               className="text-4xl md:text-6xl lg:text-7xl font-display font-bold text-white leading-tight mb-6"
             >
-              Practical IT and AI{" "}
-              <span className="text-primary">Solutions</span> for Modern
-              Businesses
+              IT & AI consultancy for the systems your business relies on
             </motion.h1>
 
             <motion.p
@@ -193,9 +188,9 @@ export default function Home() {
               variants={fadeUp}
               className="text-lg md:text-xl text-slate-300 mb-10 max-w-2xl leading-relaxed"
             >
-              We help businesses build better digital systems, modernise their
-              operations, and implement AI strategies that deliver real
-              results — not just potential.
+              We help businesses understand, improve, and implement the
+              technology systems they rely on — from IT strategy and systems
+              integration to practical AI adoption.
             </motion.p>
 
             <motion.div
@@ -227,7 +222,7 @@ export default function Home() {
               variants={fadeUp}
               className="mt-16 flex flex-wrap items-center gap-8 text-sm text-slate-400"
             >
-              {["IT Consulting", "AI Implementation", "Web & App Development", "Process Automation"].map(
+              {["IT & Systems Consulting", "AI Implementation", "Systems Integration", "Process Automation"].map(
                 (tag) => (
                   <div key={tag} className="flex items-center gap-2">
                     <CheckCircle size={14} className="text-primary" />
@@ -245,16 +240,16 @@ export default function Home() {
         <div className="container mx-auto px-4 md:px-8 max-w-7xl">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-white text-center">
             <div>
-              <div className="text-4xl font-display font-bold mb-2">7+</div>
-              <div className="text-white/80 text-sm">Core service areas</div>
+              <div className="text-4xl font-display font-bold mb-2">IT & Systems</div>
+              <div className="text-white/80 text-sm">Technology strategy and improvement</div>
             </div>
             <div>
-              <div className="text-4xl font-display font-bold mb-2">100%</div>
-              <div className="text-white/80 text-sm">Business-focused delivery</div>
+              <div className="text-4xl font-display font-bold mb-2">AI-ready</div>
+              <div className="text-white/80 text-sm">Practical adoption and implementation</div>
             </div>
             <div>
               <div className="text-4xl font-display font-bold mb-2">End-to-end</div>
-              <div className="text-white/80 text-sm">Strategy through implementation</div>
+              <div className="text-white/80 text-sm">Assessment through implementation</div>
             </div>
           </div>
         </div>
@@ -280,16 +275,16 @@ export default function Home() {
               variants={fadeUp}
               className="text-3xl md:text-5xl font-display font-bold text-foreground mb-5"
             >
-              Services built around your business
+              Technology services built around your business
             </motion.h2>
             <motion.p
               custom={2}
               variants={fadeUp}
               className="text-muted-foreground text-lg max-w-2xl mx-auto"
             >
-              From technology strategy to hands-on implementation, we cover the
-              full range of what modern businesses need to operate and compete
-              effectively.
+              We bring together technology strategy, systems improvement, AI
+              implementation, and the delivery capabilities needed to solve the
+              right business problem.
             </motion.p>
           </motion.div>
 
@@ -435,9 +430,9 @@ export default function Home() {
                 >
                   Most businesses hear a lot about AI and understand very little
                   about where it actually applies to their situation. We help
-                  you cut through the noise — identifying practical use cases,
-                  running focused pilots, and implementing systems that create
-                  measurable value.
+                  you assess readiness, identify practical opportunities, guide
+                  adoption, and implement AI that fits your existing systems and
+                  people.
                 </motion.p>
                 <motion.div custom={3} variants={fadeUp}>
                   <Button
@@ -553,14 +548,14 @@ export default function Home() {
               variants={fadeUp}
               className="text-primary font-medium text-sm uppercase tracking-widest mb-3"
             >
-              Client Outcomes
+              What we bring to every engagement
             </motion.p>
             <motion.h2
               custom={1}
               variants={fadeUp}
               className="text-3xl md:text-5xl font-display font-bold text-foreground"
             >
-              Trusted by businesses that needed real results
+              A technology partner focused on useful progress
             </motion.h2>
           </motion.div>
 
@@ -585,9 +580,7 @@ export default function Home() {
                 </p>
                 <div className="border-t border-border pt-5">
                   <p className="font-display font-semibold text-foreground text-sm">{t.name}</p>
-                  <p className="text-muted-foreground text-xs mt-0.5">
-                    {t.role} · {t.company}
-                  </p>
+                  <p className="text-muted-foreground text-xs mt-0.5">{t.role}</p>
                 </div>
               </motion.div>
             ))}

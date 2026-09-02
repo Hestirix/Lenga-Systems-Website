@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { motion, type Variants } from "framer-motion";
 import { useState } from "react";
 import {
   Mail,
@@ -11,7 +11,7 @@ import {
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-const fadeUp = {
+const fadeUp: Variants = {
   hidden: { opacity: 0, y: 30 },
   visible: (i = 0) => ({
     opacity: 1,
@@ -44,7 +44,7 @@ const faqs = [
   {
     question: "How long do projects typically take?",
     answer:
-      "It depends on scope and complexity. A focused automation project might take 4–8 weeks. A custom web application might take 8–16 weeks. A transformation programme might run over 6–18 months. We'll give you a realistic timeline in any proposal we put together.",
+      "It depends on the scope and complexity of the challenge. We'll help you define the right first step and provide a realistic timeline in any proposal we put together.",
   },
   {
     question: "Do you work remotely or on-site?",
@@ -54,10 +54,10 @@ const faqs = [
 ];
 
 const services = [
-  "IT Consulting",
-  "AI Consulting",
-  "Website Development",
-  "App Development",
+  "IT & Systems Consulting",
+  "AI Consulting & Implementation",
+  "Web Development",
+  "Application Development",
   "Process Automation",
   "Systems Integration",
   "Digital Transformation",
@@ -110,7 +110,7 @@ export default function Contact() {
               variants={fadeUp}
               className="text-4xl md:text-6xl font-display font-bold text-white mb-6 leading-tight"
             >
-              Let's talk about your business
+              Let's talk about your technology and AI priorities
             </motion.h1>
             <motion.p
               custom={2}
@@ -118,7 +118,8 @@ export default function Contact() {
               className="text-slate-300 text-lg leading-relaxed"
             >
               No pressure, no sales pitch. Tell us what you're trying to
-              achieve, and we'll tell you honestly whether and how we can help.
+              improve, understand, or implement, and we'll tell you honestly
+              whether and how we can help.
             </motion.p>
           </motion.div>
         </div>
@@ -298,7 +299,7 @@ export default function Contact() {
 
                   <div>
                     <label className="block text-sm font-medium text-foreground mb-2">
-                      Service you're interested in
+                      Area you'd like to discuss
                     </label>
                     <div className="relative">
                       <select
@@ -323,7 +324,7 @@ export default function Contact() {
 
                   <div>
                     <label className="block text-sm font-medium text-foreground mb-2">
-                      Tell us about your project or challenge{" "}
+                      Tell us about your business, systems, or challenge{" "}
                       <span className="text-primary">*</span>
                     </label>
                     <textarea
