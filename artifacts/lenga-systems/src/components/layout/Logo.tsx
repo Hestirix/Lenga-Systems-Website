@@ -6,13 +6,9 @@ interface LogoProps {
 export function Logo({ variant = "dark", className = "" }: LogoProps) {
   return (
     <img
-      src="/logo.png"
+      src={variant === "light" ? "/logo-light.png" : "/logo-dark.png"}
       alt="Lenga Systems LLC"
-      className={`h-9 w-auto object-contain select-none ${
-        variant === "light"
-          ? "rounded-lg bg-white/10 backdrop-blur-sm px-2 py-1"
-          : ""
-      } ${className}`}
+      className={`h-8 md:h-9 w-auto object-contain select-none ${className}`}
       draggable={false}
     />
   );

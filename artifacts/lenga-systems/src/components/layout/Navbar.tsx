@@ -32,7 +32,7 @@ export function Navbar() {
       <div className="container mx-auto px-4 md:px-8 max-w-7xl flex items-center justify-between">
         <Link href="/" className="flex items-center group">
           <Logo
-            variant={isScrolled ? "dark" : "light"}
+            variant="dark"
             className="transition-opacity group-hover:opacity-80"
           />
         </Link>
