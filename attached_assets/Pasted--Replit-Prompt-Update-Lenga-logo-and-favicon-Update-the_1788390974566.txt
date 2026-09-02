@@ -1,0 +1,40 @@
+# Replit Prompt — Update Lenga logo and favicon
+
+Update the existing **Lenga Systems website** to use the newly provided logo assets across the site and in the browser tab.
+
+## Branding assets provided
+
+* **Image A** = the **icon-only Lenga mark** (three horizontal stylized bars / symbol only)
+* **Image B** = the **full Lenga wordmark logo** (“LENGA” with the icon integrated)
+
+## What to change
+
+1. Replace the current website logo branding with the new provided assets.
+2. Use **Image B (the full wordmark)** anywhere the main Lenga logo appears on the website, especially:
+
+   * the top navigation/header
+   * the footer
+   * any other main branded areas where the company logo is shown
+3. Use **Image A (the icon-only mark)** as the **browser tab icon / favicon**.
+4. Make sure the favicon displays correctly in the browser tab and uses the icon cleanly without distortion.
+5. Ensure the logos are properly sized, aligned, and visually clean on both desktop and mobile.
+6. Preserve image quality and transparency if the uploaded files support transparency.
+7. Keep the site’s current color palette, layout, spacing, typography, and structure unchanged unless a small adjustment is needed purely to fit the new logo cleanly.
+8. If necessary, slightly adjust logo sizing or padding in the navbar/footer so the new branding looks polished and professional.
+9. Update any old logo references in the codebase so the new branding is used consistently.
+10. Ensure the browser tab title still reads appropriately as **Lenga Systems**.
+
+## Important constraints
+
+* Do **not** redesign the site.
+* Do **not** change the page copy unless necessary for a branding label.
+* Do **not** alter the overall structure, sections, or visual identity of the website.
+* Focus only on implementing the new logo assets properly and professionally.
+
+## Expected result
+
+The website should look the same as it does now, but with the new official Lenga branding applied consistently:
+
+* **full wordmark logo on the website**
+* **icon-only logo as the favicon**
+* clean implementation across the site
